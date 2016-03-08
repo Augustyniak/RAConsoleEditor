@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		065DF84B1C8F4026008186F0 /* RAConsoleEditor.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = 065DF84A1C8F4026008186F0 /* RAConsoleEditor.xcscheme */; };
+		065DF84D1C8F4026008186F0 /* RAConsoleEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065DF84C1C8F4026008186F0 /* RAConsoleEditor.swift */; };
+		065DF84F1C8F4026008186F0 /* NSObject_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065DF84E1C8F4026008186F0 /* NSObject_Extension.swift */; };
+		065DF8571C8F407F008186F0 /* ConsoleViewInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065DF8561C8F407F008186F0 /* ConsoleViewInterface.swift */; };
+		065DF8591C8F408C008186F0 /* FileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065DF8581C8F408C008186F0 /* FileController.swift */; };
+		065DF8721C8F423D008186F0 /* ActionsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065DF86A1C8F423D008186F0 /* ActionsController.swift */; };
+		065DF8731C8F423D008186F0 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065DF86B1C8F423D008186F0 /* Button.swift */; };
+		065DF8741C8F423D008186F0 /* ContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065DF86C1C8F423D008186F0 /* ContainerView.swift */; };
+		065DF8751C8F423D008186F0 /* FileCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065DF86D1C8F423D008186F0 /* FileCreator.swift */; };
+		065DF8761C8F423D008186F0 /* FileHandle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065DF86E1C8F423D008186F0 /* FileHandle.swift */; };
+		065DF8771C8F423D008186F0 /* FileOpener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065DF86F1C8F423D008186F0 /* FileOpener.swift */; };
+		065DF8781C8F423D008186F0 /* Panels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065DF8701C8F423D008186F0 /* Panels.swift */; };
+		065DF8791C8F423D008186F0 /* SettingsStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065DF8711C8F423D008186F0 /* SettingsStorage.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		065DF8461C8F4026008186F0 /* RAConsoleEditor.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RAConsoleEditor.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		065DF84A1C8F4026008186F0 /* RAConsoleEditor.xcscheme */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = RAConsoleEditor.xcscheme; path = RAConsoleEditor.xcodeproj/xcshareddata/xcschemes/RAConsoleEditor.xcscheme; sourceTree = SOURCE_ROOT; };
+		065DF84C1C8F4026008186F0 /* RAConsoleEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RAConsoleEditor.swift; sourceTree = "<group>"; };
+		065DF84E1C8F4026008186F0 /* NSObject_Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObject_Extension.swift; sourceTree = "<group>"; };
+		065DF8501C8F4026008186F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		065DF8561C8F407F008186F0 /* ConsoleViewInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsoleViewInterface.swift; sourceTree = "<group>"; };
+		065DF8581C8F408C008186F0 /* FileController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileController.swift; sourceTree = "<group>"; };
+		065DF86A1C8F423D008186F0 /* ActionsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionsController.swift; sourceTree = "<group>"; };
+		065DF86B1C8F423D008186F0 /* Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		065DF86C1C8F423D008186F0 /* ContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerView.swift; sourceTree = "<group>"; };
+		065DF86D1C8F423D008186F0 /* FileCreator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileCreator.swift; sourceTree = "<group>"; };
+		065DF86E1C8F423D008186F0 /* FileHandle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileHandle.swift; sourceTree = "<group>"; };
+		065DF86F1C8F423D008186F0 /* FileOpener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileOpener.swift; sourceTree = "<group>"; };
+		065DF8701C8F423D008186F0 /* Panels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Panels.swift; sourceTree = "<group>"; };
+		065DF8711C8F423D008186F0 /* SettingsStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsStorage.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		065DF83E1C8F4026008186F0 = {
+			isa = PBXGroup;
+			children = (
+				065DF8481C8F4026008186F0 /* RAConsoleEditor */,
+				065DF8471C8F4026008186F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		065DF8471C8F4026008186F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				065DF8461C8F4026008186F0 /* RAConsoleEditor.xcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		065DF8481C8F4026008186F0 /* RAConsoleEditor */ = {
+			isa = PBXGroup;
+			children = (
+				065DF84C1C8F4026008186F0 /* RAConsoleEditor.swift */,
+				065DF84E1C8F4026008186F0 /* NSObject_Extension.swift */,
+				065DF8561C8F407F008186F0 /* ConsoleViewInterface.swift */,
+				065DF8581C8F408C008186F0 /* FileController.swift */,
+				065DF86A1C8F423D008186F0 /* ActionsController.swift */,
+				065DF86B1C8F423D008186F0 /* Button.swift */,
+				065DF86C1C8F423D008186F0 /* ContainerView.swift */,
+				065DF86D1C8F423D008186F0 /* FileCreator.swift */,
+				065DF86E1C8F423D008186F0 /* FileHandle.swift */,
+				065DF86F1C8F423D008186F0 /* FileOpener.swift */,
+				065DF8701C8F423D008186F0 /* Panels.swift */,
+				065DF8711C8F423D008186F0 /* SettingsStorage.swift */,
+				065DF8501C8F4026008186F0 /* Info.plist */,
+				065DF8491C8F4026008186F0 /* Supporting Files */,
+			);
+			path = RAConsoleEditor;
+			sourceTree = "<group>";
+		};
+		065DF8491C8F4026008186F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				065DF84A1C8F4026008186F0 /* RAConsoleEditor.xcscheme */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		065DF8451C8F4026008186F0 /* RAConsoleEditor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 065DF8531C8F4026008186F0 /* Build configuration list for PBXNativeTarget "RAConsoleEditor" */;
+			buildPhases = (
+				065DF8431C8F4026008186F0 /* Sources */,
+				065DF8441C8F4026008186F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RAConsoleEditor;
+			productName = RAConsoleEditor;
+			productReference = 065DF8461C8F4026008186F0 /* RAConsoleEditor.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		065DF83F1C8F4026008186F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Rafał Augustyniak";
+				TargetAttributes = {
+					065DF8451C8F4026008186F0 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 065DF8421C8F4026008186F0 /* Build configuration list for PBXProject "RAConsoleEditor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 065DF83E1C8F4026008186F0;
+			productRefGroup = 065DF8471C8F4026008186F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				065DF8451C8F4026008186F0 /* RAConsoleEditor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		065DF8441C8F4026008186F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				065DF84B1C8F4026008186F0 /* RAConsoleEditor.xcscheme in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		065DF8431C8F4026008186F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				065DF84D1C8F4026008186F0 /* RAConsoleEditor.swift in Sources */,
+				065DF8731C8F423D008186F0 /* Button.swift in Sources */,
+				065DF8791C8F423D008186F0 /* SettingsStorage.swift in Sources */,
+				065DF8781C8F423D008186F0 /* Panels.swift in Sources */,
+				065DF8771C8F423D008186F0 /* FileOpener.swift in Sources */,
+				065DF8571C8F407F008186F0 /* ConsoleViewInterface.swift in Sources */,
+				065DF84F1C8F4026008186F0 /* NSObject_Extension.swift in Sources */,
+				065DF8761C8F423D008186F0 /* FileHandle.swift in Sources */,
+				065DF8751C8F423D008186F0 /* FileCreator.swift in Sources */,
+				065DF8591C8F408C008186F0 /* FileController.swift in Sources */,
+				065DF8741C8F423D008186F0 /* ContainerView.swift in Sources */,
+				065DF8721C8F423D008186F0 /* ActionsController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		065DF8511C8F4026008186F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		065DF8521C8F4026008186F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+			};
+			name = Release;
+		};
+		065DF8541C8F4026008186F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = RAConsoleEditor/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				LD_RUNPATH_SEARCH_PATHS = "$(DT_TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.augustyniak.RAConsoleEditor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		065DF8551C8F4026008186F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = RAConsoleEditor/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				LD_RUNPATH_SEARCH_PATHS = "$(DT_TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.augustyniak.RAConsoleEditor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		065DF8421C8F4026008186F0 /* Build configuration list for PBXProject "RAConsoleEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				065DF8511C8F4026008186F0 /* Debug */,
+				065DF8521C8F4026008186F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		065DF8531C8F4026008186F0 /* Build configuration list for PBXNativeTarget "RAConsoleEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				065DF8541C8F4026008186F0 /* Debug */,
+				065DF8551C8F4026008186F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 065DF83F1C8F4026008186F0 /* Project object */;
+}
